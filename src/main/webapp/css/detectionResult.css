@@ -1,0 +1,38 @@
+body{
+    padding: 3px;
+}
+div.result-body{
+    text-align: center;
+    border: 2px solid #0dc20d;
+    border-radius: 5px;
+}
+div.result-body table{
+    margin: 10px;
+}
+div.result-body table tr td:first-child{
+    color: #87898f;
+    text-align: right;
+    font-family: "幼圆";
+}
+div.result-body table tr td:last-child{
+    text-align: left;
+}
+div.result-body table tr td:last-child span{
+    padding-left: 5px;
+    font-family: "宋体";
+}
+div.result-body table tr td:last-child span.span3{
+    color: #e5620c !important;
+}
+div.result-body table tr td:last-child span.span4{
+    color: #7cfc00 !important;
+    font-weight: bold;
+}
+div.result-body div.divNum{
+    width: 45px;
+    height: 18px;
+    border-top: 2px solid #0dc20d;
+    border-right: 2px solid #0dc20d;
+    border-radius: 0 5px 0 5px;
+    color: lawngreen;
+}

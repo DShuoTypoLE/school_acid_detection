@@ -1,0 +1,8 @@
+body .layerdemo1{
+    border-radius: 13px;
+}
+
+body .layerdemo1 .layui-layer-title{
+    border-radius: 13px 13px 0 0;
+    background-color: lightpink;
+}
